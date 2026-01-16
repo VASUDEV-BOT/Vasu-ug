@@ -17,9 +17,9 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "7514808135"))
 ADMINS = [int(x) for x in os.environ.get("ADMINS", "8232691888").split()]  # Default to owner ID
 
 # Channel Configuration
-PREMIUM_CHANNEL = "https://t.me/+l186M_g6vWRhMjFl"
+PREMIUM_CHANNEL = ""
 # Thumbnail Configuration
-THUMBNAILS = list(map(str, os.environ.get("THUMBNAILS", "https://i.ibb.co/v6Vr7HCt/1000003297.jpg").split()))
+THUMBNAILS = list(map(str, os.environ.get("THUMBNAILS", "https://graph.org/file/70fd6c08c1363c4022f1b-5c66cc00fe1f783194.jpg").split()))
 
 # Web Server Configuration
 WEB_SERVER = os.environ.get("WEB_SERVER", "False").lower() == "true"
@@ -59,6 +59,7 @@ Please contact the admin @ItsUGBot to get access.</blockquote>""",
 
 <blockquote>Use format: {format}</blockquote>"""
 }
+
 
 
 
